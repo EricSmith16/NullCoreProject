@@ -108,11 +108,13 @@ void D::DrawRectGradientHorizontal( int x, int y, int width, int height, Color c
 	}
 }
 
+/*
 void D::DrawPixel( int x, int y, Color col )
 {
 	I::Surface->DrawSetColor( col );
 	I::Surface->DrawFilledRect( x, y, x + 1, y + 1 );
 }
+*/
 
 void D::DrawOutlinedRect( int x, int y, int w, int h, Color col )
 {
